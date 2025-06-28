@@ -2,7 +2,7 @@
 <br /><br />
 
 <div align="center">
-   <img height="150" style="object-fit: contain" src="https://substrate.io/img/substrate_og.png" alt="substrate connect">
+   <img height="150" style="object-fit: contain" src="https://i.ibb.co/nMxDdhBW/Substrate-2.jpg" alt="substrate connect">
   <h4 align="center"> Các gói NPM cung cấp một cách tiếp cận sáng tạo để tương tác với các blockchain dựa trên <a href="https://substrate.dev/">Substrate</a>-based trực tiếp trong trình duyệt của bạn.</h4>
 </div>
 
