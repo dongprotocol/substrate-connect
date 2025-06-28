@@ -30,23 +30,13 @@
 
 Substrate Connect mang đến một phương thức đột phá để tương tác với các blockchain xây dựng trên nền tảng [Substrate](https://substrate.dev/)- trực tiếp trong trình duyệt, loại bỏ nhu cầu sử dụng máy chủ RPC. Bằng cách sử dụng [smoldot](https://github.com/smol-dot/smoldot) - một WASM light client, công cụ này đảm bảo kết nối an toàn và hiệu quả với mạng blockchain mà không phụ thuộc vào các bên trung gian cụ thể.
 
+### Viết các dApp An toàn và Hiệu quả với Mạng lưới Polkadot
 
+Mục tiêu của kho lưu trữ này là cung cấp các gói NPM có thể được sử dụng để:
 
-
-
-
-
-
-
-.
-
-### Write Secure and Effective dApps with the Polkadot Network
-
-The aim of this repository is to offer NPM packages that can be used to:
-
-- **Provide a secure and efficient connection to the Polkadot network** via [`@substrate/connect`](./packages/connect/), leveraging the excellent [Smoldot](https://github.com/smol-dot/smoldot) WASM light client.
-- **Discover browser extensions** that implement [the discovery protocol](./packages/discovery/), including those which expose a light client via [`@substrate/smoldot-discovery`](./packages/smoldot-discovery/). Substrate Connect will automatically leverage these where possible.
-- **Easily enhance a browser extension with a light client** via [`@substrate/light-client-extension-helpers`](./packages/light-client-extension-helpers).
+- **Cung cấp kết nối an toàn và hiệu quả tới mạng lưới Polkadot** thông qua [`@substrate/connect`](./packages/connect/), tận dụng light client WASM xuất sắc là [Smoldot](https://github.com/smol-dot/smoldot).
+- **Phát hiện các tiện ích mở rộng trình duyệt** triển khai [giao thức khám phá](./packages/discovery/), bao gồm cả những tiện ích cung cấp light client thông qua [`@substrate/smoldot-discovery`](./packages/smoldot-discovery/). Substrate Connect sẽ tự động tận dụng các tiện ích này khi có thể.
+- **Dễ dàng nâng cấp một tiện ích mở rộng trình duyệt** bằng cách tích hợp light client thông qua [`@substrate/light-client-extension-helpers`](./packages/light-client-extension-helpers).
 
 We also provide example projects using the above packages, including:
 
