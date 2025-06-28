@@ -26,9 +26,19 @@
 - [Releasing](#releasing)
 - [Useful Links](#useful-links)
 
-## Introduction
+## Giới thiệu
 
-Substrate Connect provides a groundbreaking method to engage with [Substrate](https://substrate.dev/)-based blockchains directly in your browser, eliminating the need for an RPC server. By utilizing the [smoldot](https://github.com/smol-dot/smoldot) WASM light client, it ensures a secure and efficient connection to the blockchain network without reliance on specific third parties.
+Substrate Connect mang đến một phương thức đột phá để tương tác với các blockchain xây dựng trên nền tảng [Substrate](https://substrate.dev/)- trực tiếp trong trình duyệt, loại bỏ nhu cầu sử dụng máy chủ RPC. Bằng cách sử dụng [smoldot](https://github.com/smol-dot/smoldot) - một WASM light client, công cụ này đảm bảo kết nối an toàn và hiệu quả với mạng blockchain mà không phụ thuộc vào các bên trung gian cụ thể.
+
+
+
+
+
+
+
+
+
+.
 
 ### Write Secure and Effective dApps with the Polkadot Network
 
