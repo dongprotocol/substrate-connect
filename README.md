@@ -80,58 +80,56 @@ Việc tích hợp light client vào tiện ích mở rộng trình duyệt mang
 ### [Các Ví dụ](./examples/)
    Ví dụ về triển khai `@substrate/connect` và `@substrate/discovery` cho các dApp và tiện ích mở rộng (Extensions).
 
-## Development
+## Phát triển (Development)
 
-This repository utilizes [pnpm workspaces](https://pnpm.io/workspaces) and `corepack`, ensuring the correct version of `pnpm` is used. For contributions, please review our [contributing guidelines](./CONTRIBUTING.md) to understand our workflow and how to smoothly integrate your contributions to the project.
+Kho lưu trữ này sử dụng [pnpm workspaces](https://pnpm.io/workspaces) và `corepack`, đảm bảo sử dụng đúng phiên bản pnpm. Nếu bạn muốn đóng góp, vui lòng xem hướng dẫn đóng góp của chúng tôi để hiểu quy trình làm việc và cách tích hợp mượt mà phần đóng góp của bạn vào dự án.
 
-### Getting Started
+### Bắt đầu (Getting Started)
 
-Follow these steps to install everything and launch a demo if you're hacking on this repository:
+Làm theo các bước sau để cài đặt mọi thứ và khởi chạy bản demo nếu bạn đang phát triển dự án này:
 
-1. **Install Prerequisites** (tested with the following versions):
+1. **Cài đặt các yêu cầu** (đã kiểm tra với các phiên bản sau):
    - Node.js (node) v20.9.0
-   - pnpm 9.0.6 (`npm install -g pnpm`)
-   - corepack 0.20.0 (bundled with recent Node.js versions)
+   - pnpm 9.0.6 cài đặt bằng (`npm install -g pnpm`)
+   - corepack 0.20.0 (được tích hợp sẵn trong các bản Node.js gần đây)
 
-2. **Clone the Repository**:
+2. **Sao chép kho lưu trữ**:
    - `git clone https://github.com/paritytech/substrate-connect.git`
-   - Navigate to the repository root: `cd substrate-connect`
+   - Đi tới thư mục gốc của dự án root: `cd substrate-connect`
 
-3. **Install Dependencies**:
+3. **Cài đặt các phụ thuộc**:
    - `corepack pnpm install`
 
-4. **Run the Extension in Development Mode**:
-   - In terminal A: `cd projects/extension && corepack pnpm dev`
+4. **Chạy tiện ích mở rộng ở chế độ phát triển**:
+   - Trong terminal A: `cd projects/extension && corepack pnpm dev`
 
-5. **Launch the Extension**:
-   - In terminal B: `cd projects/extension && corepack pnpm start`
-   - This opens a Chrome browser window with the extension pre-loaded. Ensure
-   the extension is running.
+5. **Khởi chạy tiện ích mở rộng**:
+   - Trong terminal B: `cd projects/extension && corepack pnpm start`
+   - Thao tác này sẽ mở một cửa sổ trình duyệt Chrome với tiện ích đã được tải sẵn. Đảm bảo tiện ích đang hoạt động.
 
-6. **Run the Demo Application**:
-   - In terminal C: `cd projects/demo && corepack pnpm dev`
-   - Navigate to the URL logged in the Chrome browser opened in step 5. You should see the extension activate and the demo app log the latest blocks.
+6. **Chạy ứng dụng demo**:
+   - Trong terminal C: `cd projects/demo && corepack pnpm dev`
+   - Đi tới URL được ghi lại trong trình duyệt Chrome đã mở ở bước 5. Bạn sẽ thấy tiện ích được kích hoạt và ứng dụng demo hiển thị các khối (blocks) mới nhất.
 
-### Cleanup Commands
+### Lệnh Dọn dẹp (Cleanup Commands)
 
-To clean up all build artifacts in workspaces in the repository:
+Xóa tất cả các tệp tạo dựng (build artifacts) trong các workspace của kho lưu trữ:
 ```bash
 corepack pnpm clean
 ```
 
-To clean up all build artifacts and dependencies in workspaces in the repository:
+Xóa tất cả tệp tạo dựng và cả phụ thuộc (dependencies):
 ```bash
 corepack pnpm deep-clean
 ```
 
-## Releasing
+## Phát hành (Releasing)
 
-For releasing a new version of the extension, follow the steps outlined in
-[the release doc](./DEPLOY-RELEASE.md).
+Để phát hành phiên bản mới của tiện ích, hãy làm theo các bước được hướng dẫn trong [tài liệu phát hành](./DEPLOY-RELEASE.md).
 
-## Useful Links
+## Liên kết Hữu ích (Useful Links)
 
-- [Substrate Connect Documentation Page](https://substrate.io/developers/substrate-connect/)
-- Download from:
+- [Trang tài liệu Substrate Connect](https://substrate.io/developers/substrate-connect/)
+- Tải xuống tiện ích từ:
   - [Chrome Store](https://chrome.google.com/webstore/detail/substrate-connect-extensi/khccbhhbocaaklceanjginbdheafklai)
   - [Mozilla Addons](https://addons.mozilla.org/en-US/firefox/addon/substrate-connect/)
