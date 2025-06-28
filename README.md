@@ -59,26 +59,26 @@ Việc tích hợp light client vào tiện ích mở rộng trình duyệt mang
 
 Để biết cách sử dụng API chi tiết, vui lòng tham khảo [tài liệu API của Substrate Connect](https://paritytech.github.io/substrate-connect).
 
-## Repository Structure
+## Cấu trúc Kho lưu trữ (Repository Structure)
 
-### [Packages](./packages/README.md)
-   The core implementations of `@substrate/connect` and `@substrate/discovery`, and some auxiliary packages.
+### [Các Gói](./packages/README.md)
+   Các triển khai cốt lõi của `@substrate/connect` và `@substrate/discovery`, cùng một số gói hỗ trợ.
    - **[@substrate/discovery](./packages/discovery/)**
    - **[@substrate/connect](./packages/connect/)**
    - **[@substrate/connect-known-chains](./packages/connect-known-chains/)**
-   - **[@substrate/connect-discovery](./packages/connect-discovery)** and **[@substrate/smoldot-discovery](./packages/smoldot-discovery/)**
+   - **[@substrate/connect-discovery](./packages/connect-discovery)** và **[@substrate/smoldot-discovery](./packages/smoldot-discovery/)**
 
-### [Showcase Projects](./projects/)
+### [Trình diễn Dự án](./projects/)
 
-   Showcase full implementations of `@substrate/connect` and `@substrate/discovery` for a Wallet, Extension or Generic usage.
+   Các bản triển khai đầy đủ của `@substrate/connect` và `@substrate/discovery` dành cho ví (Wallet), tiện ích mở rộng (Extension) hoặc mục đích sử dụng chung.
 
-   - **[Wallet implementation](./projects/wallet-template/)**
-   - **[Extension implementation](./projects/extension/)**
-   - **[Parachain Demo](./projects/demo)**
+   - **[Triển khai ví](./projects/wallet-template/)**
+   - **[Triển khai tiện ích mở rộng](./projects/extension/)**
+   - **[Demo parachain](./projects/demo)**
 
 
-### [Examples](./examples/)
-   dApp and Extensions example implementations of `@substrate/connect` and `@substrate/discovery`.
+### [Các Ví dụ](./examples/)
+   Ví dụ về triển khai `@substrate/connect` và `@substrate/discovery` cho các dApp và tiện ích mở rộng (Extensions).
 
 ## Development
 
