@@ -3,28 +3,28 @@
 
 <div align="center">
    <img height="150" style="object-fit: contain" src="https://substrate.io/img/substrate_og.png" alt="substrate connect">
-  <h4 align="center"> NPM packages that offers an innovative way to interact with <a href="https://substrate.dev/">Substrate</a>-based blockchains directly in your browser.</h4>
+  <h4 align="center"> Các gói NPM cung cấp một cách tiếp cận sáng tạo để tương tác với các blockchain dựa trên <a href="https://substrate.dev/">Substrate</a>-based trực tiếp trong trình duyệt của bạn.</h4>
 </div>
 
 <br /><br />
 
-## Table of contents
+## Mục lục
 
-- [Table of contents](#table-of-contents)
-- [Introduction](#introduction)
-  - [Write Secure and Effective dApps with the Polkadot Network](#write-secure-and-effective-dapps-with-the-polkadot-network)
-  - [Additional Resources](#additional-resources)
-  - [Why Embed a Light Client in Browser Extensions?](#why-embed-a-light-client-in-browser-extensions)
-- [Comprehensive API Documentation](#comprehensive-api-documentation)
-- [Repository Structure](#repository-structure)
-  - [Packages](#packages)
-  - [Showcase Projects](#showcase-projects)
-  - [Examples](#examples)
-- [Development](#development)
-  - [Getting Started](#getting-started)
-  - [Cleanup Commands](#cleanup-commands)
-- [Releasing](#releasing)
-- [Useful Links](#useful-links)
+- [Mục lục](#table-of-contents)
+- [Giới thiệu](#introduction)
+  - [Viết dApp An toàn và Hiệu quả với Mạng lưới Polkadot](#write-secure-and-effective-dapps-with-the-polkadot-network)
+  - [Tài nguyên Bổ sung](#additional-resources)
+  - [Tại sao nên nhúng Light Client vào Tiện ích mở rộng Trình duyệt?](#why-embed-a-light-client-in-browser-extensions)
+- [Tài liệu API Toàn diện](#comprehensive-api-documentation)
+- [Cấu trúc kho lưu trữ](#repository-structure)
+  - [Các Gói](#packages)
+  - [Dự án Tiêu biểu](#showcase-projects)
+  - [Ví dụ](#examples)
+- [Phát triển](#development)
+  - [Bắt đầu](#getting-started)
+  - [Lệnh Dọn dẹp](#cleanup-commands)
+- [Phát hành](#releasing)
+- [Liên kết Hữu ích](#useful-links)
 
 ## Giới thiệu
 
