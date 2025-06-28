@@ -1,4 +1,3 @@
-
 <br /><br />
 
 <div align="center">
@@ -38,27 +37,27 @@ Mục tiêu của kho lưu trữ này là cung cấp các gói NPM có thể đ�
 - **Phát hiện các tiện ích mở rộng trình duyệt** triển khai [giao thức khám phá](./packages/discovery/), bao gồm cả những tiện ích cung cấp light client thông qua [`@substrate/smoldot-discovery`](./packages/smoldot-discovery/). Substrate Connect sẽ tự động tận dụng các tiện ích này khi có thể.
 - **Dễ dàng nâng cấp một tiện ích mở rộng trình duyệt** bằng cách tích hợp light client thông qua [`@substrate/light-client-extension-helpers`](./packages/light-client-extension-helpers).
 
-We also provide example projects using the above packages, including:
+Chúng tôi cũng cung cấp các dự án ví dụ sử dụng các gói trên, bao gồm:
 
-- **[Basic light client demo](./projects/demo)**: a demo using `@substrate/connect` to obtain information about chains on the Polkadot network.
-- **[Light client extension demo](./projects/extension/)**: an example of a browser extension that provides a light client.
-- **[Wallet extension demo](./projects/wallet-template/)**: an example of a browser extension that provides a full Polkadot wallet leveraging a light client.
+- **[Demo light client cơ bản](./projects/demo)**: một bản demo sử dụng `@substrate/connect` để lấy thông tin về các chuỗi trên mạng Polkadot.
+- **[Demo tiện ích mở rộng light client](./projects/extension/)**: một ví dụ về tiện ích trình duyệt cung cấp light client.
+- **[Demo tiện ích mở rộng ví](./projects/wallet-template/)**: một ví dụ về tiện ích trình duyệt cung cấp ví Polkadot đầy đủ dựa trên light client.
 
-### Additional Resources
+### Tài nguyên bổ sung
 
-- A [step-by-step guide](./projects/wallet-template/STEP-BY-STEP-GUIDE.md) on how to integrate a light client into a browser extension.
-- Details on [the discovery protocol](./packages/discovery/), including how to implement it on the browser or extension side.
+- [Hướng dẫn từng bước](./projects/wallet-template/STEP-BY-STEP-GUIDE.md) cách tích hợp light client vào tiện ích mở rộng trình duyệt.
+- Thông tin chi tiết về [Giao thức khám phá](./packages/discovery/), bao gồm cách triển khai trên trình duyệt hoặc tiện ích mở rộng.
 
-### Why Embed a Light Client in Browser Extensions?
+### Tại sao nên nhúng Light Client vào Tiện ích Mở rộng Trình duyệt?
 
-Embedding a light client in browser extensions offers several advantages:
+Việc tích hợp light client vào tiện ích mở rộng trình duyệt mang lại nhiều lợi ích:
 
-- **Shared Light Client Across Multiple dApps:** By sharing a single light client among various decentralized applications (dApps), the time spent on startup and syncing is reduced. This avoids slowing down individual dApps and enhances overall efficiency.
-- **Overcoming Browser Limitations:** Browser limitations on WebSockets from HTTPS pages make it challenging to establish a robust number of peers, as many nodes must be available with TLS. Substrate Connect addresses this issue through a powerful browser extension, enabling chains to stay synced in the background and significantly improving the performance of your applications. This ensures a more robust connection to the Polkadot ecosystem.
+- **Chia sẻ Light Client giữa nhiều dApp:** Nhờ chia sẻ một light client duy nhất giữa nhiều ứng dụng phi tập trung (dApp), thời gian khởi động và đồng bộ hóa được rút ngắn. Điều này giúp các dApp hoạt động mượt mà hơn và nâng cao hiệu quả tổng thể.
+- **Vượt qua giới hạn của trình duyệt:** Những hạn chế của trình duyệt đối với WebSocket từ các trang HTTPS gây khó khăn trong việc kết nối nhiều node ngang hàng (peers), do yêu cầu hầu hết các node phải hỗ trợ TLS. Substrate Connect giải quyết vấn đề này bằng cách sử dụng tiện ích mở rộng trình duyệt mạnh mẽ, giúp chuỗi blockchain được đồng bộ ngầm và cải thiện hiệu suất ứng dụng một cách đáng kể. Điều này đảm bảo kết nối ổn định hơn với hệ sinh thái Polkadot.
 
-## Comprehensive API Documentation
+## Tài liệu API Toàn diện
 
-For detailed API usage, refer to the [Substrate Connect API documentation](https://paritytech.github.io/substrate-connect).
+Để biết cách sử dụng API chi tiết, vui lòng tham khảo [tài liệu API của Substrate Connect](https://paritytech.github.io/substrate-connect).
 
 ## Repository Structure
 
